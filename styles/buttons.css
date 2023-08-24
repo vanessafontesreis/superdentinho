@@ -1,0 +1,134 @@
+.btnMenu:hover {
+    transform: scale(1.1);
+}
+
+#btnBackFromRulesToApresentation,
+#btnBackFromCreditsToApresentation,
+#btnBackFromQuestionToBoardgame,
+#btnBackFromBoardgameToMenu,
+#btnBackFromTeoricReferenceToApresentation {
+    position: fixed;
+    top: 1vw;
+    left: 1vw;
+    width: 6vw;
+    height: 6vw;
+    cursor: pointer;    
+    z-index: 10;
+}
+
+#btnNextCredit,
+#btnNextRule,
+#btnNextTeoricReference,
+#btnNextFromToBoardgame,
+#btnFromWinnerToThanks,
+#btnFromThanksToReferences,
+#btnNextReferences {
+    position: fixed;
+    bottom: 1vw;
+    right: 1vw;
+    width: 6vw;
+    height: 6vw;
+    cursor: pointer;
+    animation: zoom-in-zoom-out 1s ease infinite;
+    z-index: 10;
+}
+
+#btnFromReferencesToStart {
+    position: fixed;
+    top: 1vw;
+    right: 1vw;
+    width: 6vw;
+    height: 6vw;
+    cursor: pointer;
+    animation: zoom-in-zoom-out 1s ease infinite;
+    z-index: 10;
+}
+
+#btnPreviousCredit,
+#btnPreviousRule,
+#btnPreviousTeoricReference,
+#btnPreviousFromToBoardgame,
+#btnPreviousReferences {
+    position: fixed;
+    bottom: 1vw;
+    right: 8vw;
+    width: 6vw;
+    height: 6vw;
+    cursor: pointer;
+    animation: zoom-in-zoom-out 1s ease infinite;
+    z-index: 10;
+}
+
+.button {
+    position: fixed;
+    width: 9vw;
+    max-width: 200px;
+    height: 9vw;    
+    max-height: 200px;
+    cursor: pointer;
+    z-index: 20;
+}
+
+#btnPlay {
+    bottom: 7.5vh;
+    left: 24.5vw;
+    animation: zoom-out-zoom-in 1s ease infinite; 
+}
+
+.optionButton {
+    width: 15vw;
+    max-width: 350px;
+    position: fixed;
+    z-index: 30;
+    cursor: pointer;
+    animation: zoom-out-zoom-in 1s ease infinite; 
+}
+
+#optionButton1 {
+    top: 52vh;
+    left: 26vw;
+    cursor: pointer;
+}
+
+#optionButton2 {
+    top: 52vh;
+    left: 60vw;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {
+    #btnPlay {
+        bottom: 8vh;
+        left: 29vw;
+    }
+}
+
+@media screen and (min-width: 701px) and (max-width: 1300px) {
+    #btnPlay {
+        bottom: 5vh;
+        left: 23vw;
+    }
+}
+
+#btnTeoric {
+    bottom: 0vh;
+    right: 40vw;
+}
+
+#btnContinue {
+    bottom: 0vh;
+    right: 25vw;
+    width: 10.5vw;    
+    height: 10.5vw;
+    animation: zoom-out-zoom-in 1s ease infinite; 
+}
+
+#btnCredits {
+    bottom: 0vh;
+    right: 55vw;
+}
+
+#btnRules {
+    bottom: 0vh;
+    right: 70vw;
+}
