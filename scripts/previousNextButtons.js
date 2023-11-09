@@ -8,11 +8,11 @@ let maxNumberOfPagesCredits = 3;
 
 // Var to control the teoric reference page
 let indexTeoricReferencePage = 1;
-let maxNumberOfTeoricReference = 5;
+let maxNumberOfTeoricReference = 4;
 
 // Var to control the references page
 let indexReferencesPage = 1;
-let maxNumberOfReferences = 4;
+let maxNumberOfReferences = 5;
 
 function displayApresentationRules() {
     for (let index = 1; index <= maxNumberOfPagesRules; index++) {
