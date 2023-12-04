@@ -39,12 +39,26 @@ a {
   color: black;
 }
 
+.unifaa {
+  position: fixed;
+  bottom: 1vw;
+  right: 23vw;
+  width: 20vw;
+  max-width: 280px;
+  margin: auto;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  text-align: right;
+}
+
 .creative-common {
   position: fixed;
   bottom: 1vw;
   right: 1vw;
   width: 120vw;
-  max-width: 380px;
+  max-width: 400px;
   margin: auto;
   background-color: white;
   padding: 10px;
@@ -160,6 +174,20 @@ p#questionText.apresentationText {
 @media screen and (max-width: 1300px) {
   #targetFlag {
     width: 80px;
+  }
+
+  .unifaa {
+    position: fixed;
+    bottom: 1vw;
+    right: 35vw;
+    width: 20vw;
+    max-width: 280px;
+    margin: auto;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    text-align: right;
   }
 
   .creative-common {
