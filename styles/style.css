@@ -41,10 +41,10 @@ a {
 
 .unifaa {
   position: fixed;
-  bottom: 1vw;
-  right: 23vw;
-  width: 20vw;
-  max-width: 280px;
+  bottom: 8.5vw;
+  right: 1vw;
+  width: 120vw;
+  max-width: 300px;
   margin: auto;
   background-color: white;
   padding: 10px;
@@ -84,7 +84,7 @@ a {
 
 #btnModalToggle2 {
   animation: zoom-out-zoom-in 1s ease infinite;
-} 
+}
 
 #targetFlagBrasil {
   animation: zoom-out-zoom-in 1s ease infinite;
@@ -178,15 +178,15 @@ p#questionText.apresentationText {
 
   .unifaa {
     position: fixed;
-    bottom: 1vw;
-    right: 35vw;
-    width: 20vw;
-    max-width: 280px;
+    bottom: 12vh;
+    right: 1vw;
+    width: 100vw;
+    max-width: 230px;
     margin: auto;
     background-color: white;
-    padding: 10px;
+    padding: 5px;
     border-radius: 5px;
-    font-size: 0.8rem;
+    font-size: 0.4rem;
     text-align: right;
   }
 
