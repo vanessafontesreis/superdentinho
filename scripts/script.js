@@ -524,6 +524,7 @@ document.getElementById("targetFlagBrasil").addEventListener("click", () => {
   document.getElementById("creative-common-2").innerHTML =
     "Atribuição-NãoComercial-CompartilhaIgual 4.0 Internacional";
   document.getElementById("btnModalToggle2").innerHTML = "Próximo";
+  document.getElementById("authors-selo").innerHTML = "Autores:";
 });
 
 document.getElementById("targetFlagUSA").addEventListener("click", () => {
@@ -536,4 +537,5 @@ document.getElementById("targetFlagUSA").addEventListener("click", () => {
   document.getElementById("creative-common-2").innerHTML =
     "Attribution-NonCommercial-ShareAlike 4.0 International";
   document.getElementById("btnModalToggle2").innerHTML = "Next";
+  document.getElementById("authors-selo").innerHTML = "Authors:";
 });
