@@ -39,32 +39,39 @@ a {
   color: black;
 }
 
-.unifaa {
+.selos {
   position: fixed;
-  bottom: 8.5vw;
+  width: 400px;
+  cursor: pointer;
+  bottom: 1vh;
   right: 1vw;
-  width: 120vw;
-  max-width: 300px;
-  margin: auto;
-  background-color: white;
-  padding: 10px;
-  border-radius: 5px;
-  font-size: 0.8rem;
-  text-align: right;
 }
 
-.creative-common {
-  position: fixed;
-  bottom: 1vw;
-  right: 1vw;
-  width: 120vw;
-  max-width: 400px;
-  margin: auto;
+.unifaa-selo {
   background-color: white;
+  border-radius: 1rem;
   padding: 10px;
-  border-radius: 5px;
-  font-size: 0.8rem;
   text-align: right;
+
+  width: 100%;
+  max-width: 300px;
+}
+
+.creative-common-selo {
+  background-color: white;
+  border-radius: 1rem;
+  padding: 10px;
+  text-align: right;
+  font-size: 0.8rem;
+}
+
+.authors-selo {
+  background-color: white;
+  border-radius: 1rem;
+  padding: 10px;
+  text-align: right;
+  font-size: 0.8rem;
+  height: 40px;
 }
 
 #ballon {
@@ -176,33 +183,40 @@ p#questionText.apresentationText {
     width: 80px;
   }
 
-  .unifaa {
+  .selos {
     position: fixed;
-    bottom: 12vh;
+    width: 240px;
+    cursor: pointer;
+    bottom: 1vh;
     right: 1vw;
-    width: 100vw;
-    max-width: 230px;
-    margin: auto;
-    background-color: white;
-    padding: 5px;
-    border-radius: 5px;
-    font-size: 0.4rem;
-    text-align: right;
   }
 
-  .creative-common {
-    position: fixed;
-    bottom: 1vw;
-    right: 1vw;
-    width: 100vw;
-    max-width: 230px;
-    margin: auto;
-    background-color: white;
+  .unifaa-selo {
     padding: 5px;
-    border-radius: 5px;
     font-size: 0.4rem;
     text-align: right;
+
+    width: 100%;
+    max-width: 150px;
   }
+
+  .creative-common-selo {
+    padding: 5px;
+    font-size: 0.4rem;
+
+    width: 100%;
+    max-width: 190px;
+  }
+
+  .authors-selo {
+    padding: 5px;
+    font-size: 0.4rem;
+
+    width: 100%;
+    max-width: 200px;
+    height: 20px;
+  }
+
 
   #titleApresentation {
     font-size: 1.3rem;
