@@ -324,6 +324,7 @@ p#questionText.apresentationText {
   position: fixed;
   top: 15vh;
   left: 10vw;
+  animation: bounce-ballon 6s ease infinite;
 }
 
 #superDentinhoApresentation {
@@ -594,6 +595,21 @@ p#questionText.apresentationText {
     transform: translateY(0px);
   }
 }
+
+@keyframes bounce-ballon {
+  0% {
+    transform: translateY(10px);
+  }
+
+  50% {
+    transform: translateY(0px);
+  }
+
+  100% {
+    transform: translateY(10px);
+  }
+}
+
 
 .questionSlotActive {
   animation: zoom-in-zoom-out 1s ease infinite;
