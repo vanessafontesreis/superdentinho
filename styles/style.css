@@ -48,30 +48,37 @@ a {
 }
 
 .unifaa-selo {
+  z-index: 999;
+
+  position: fixed;
+  top: 1vh;
+  left: 1vw;
+
   background-color: white;
-  border-radius: 1rem;
+  border-radius: 5px;
   padding: 10px;
   text-align: right;
 
   width: 100%;
-  max-width: 300px;
+  max-width: 275px;
 }
 
 .creative-common-selo {
-  background-color: white;
-  border-radius: 1rem;
-  padding: 10px;
-  text-align: right;
-  font-size: 0.8rem;
-}
+  z-index: 999;
 
-.authors-selo {
+  position: fixed;
+  cursor: pointer;
+  bottom: 1vh;
+  right: 1vw;
+
   background-color: white;
-  border-radius: 1rem;
+  border-radius: 5px;
   padding: 10px;
   text-align: right;
-  font-size: 0.8rem;
-  height: 40px;
+  font-size: 0.7rem;
+
+  width: 100%;
+  max-width: 340px;
 }
 
 #ballon {
@@ -82,8 +89,9 @@ a {
 }
 
 #targetFlag {
+  z-index: 999;
   position: fixed;
-  width: 150px;
+  width: 125px;
   cursor: pointer;
   top: 1vh;
   right: 1vw;
@@ -181,14 +189,6 @@ p#questionText.apresentationText {
 @media screen and (max-width: 1300px) {
   #targetFlag {
     width: 80px;
-  }
-
-  .selos {
-    position: fixed;
-    width: 240px;
-    cursor: pointer;
-    bottom: 1vh;
-    right: 1vw;
   }
 
   .unifaa-selo {
@@ -298,9 +298,9 @@ p#questionText.apresentationText {
 
 #superDentinhoStart {
   position: fixed;
-  top: 2vh;
-  left: 55vw;
-  width: 35vw;
+  top: 24vh;
+  right: 0vw;
+  width: 26vw;
   animation: bounce 6s ease infinite;
   z-index: 2;
 }

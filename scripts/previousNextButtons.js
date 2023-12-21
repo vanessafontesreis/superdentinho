@@ -4,7 +4,7 @@ let maxNumberOfPagesRules = 2;
 
 // Var to control the authors list
 let indexCreditPage = 1;
-let maxNumberOfPagesCredits = 3;
+let maxNumberOfPagesCredits = 2;
 
 // Var to control the teoric reference page
 let indexTeoricReferencePage = 1;

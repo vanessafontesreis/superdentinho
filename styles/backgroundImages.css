@@ -6,10 +6,10 @@
 }
 
 .start {
-    background-image: url("../images/backgrounds/pt-br/START.svg");
+    background-image: url("../images/backgrounds/pt-br/START.png");
     background-color: #008de6;
-    background-position: left;
-    background-size: contain;    
+    background-position: center;
+    background-size: cover;    
 }
 
 .apresentation {    

@@ -63,7 +63,7 @@ function checkDevice() {
   }
 
   setDistanceFingerTopLeft();
-  toggleFullscreen();
+  // toggleFullscreen();
 }
 
 /* DETECTAR SE USUARIO AJUSTOU A TELA PARA HORIZONTAL */
