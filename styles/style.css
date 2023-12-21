@@ -297,6 +297,7 @@ p#questionText.apresentationText {
 }
 
 #superDentinhoStart {
+  z-index: 999;
   position: fixed;
   top: 24vh;
   right: 0vw;
