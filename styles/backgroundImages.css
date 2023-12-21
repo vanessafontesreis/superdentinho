@@ -9,7 +9,7 @@
     background-image: url("../images/backgrounds/pt-br/START.png");
     background-color: #008de6;
     background-position: center;
-    background-size: cover;    
+    background-size: contain;    
 }
 
 .apresentation {    

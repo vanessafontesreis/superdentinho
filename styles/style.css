@@ -302,7 +302,27 @@ p#questionText.apresentationText {
   right: 0vw;
   width: 26vw;
   animation: bounce 6s ease infinite;
-  z-index: 2;
+}
+
+#cloud1 {
+  width: 45vw;
+  position: fixed;
+  bottom: -10vh;
+  left: -20vw;
+}
+
+#cloud2 {
+  width: 45vw;
+  position: fixed;
+  top: -15vh;
+  right: -15vw;
+}
+
+#ballon {
+  width: 15vw;
+  position: fixed;
+  top: 15vh;
+  left: 10vw;
 }
 
 #superDentinhoApresentation {
@@ -448,11 +468,6 @@ p#questionText.apresentationText {
   #superDentinhoBoardGame {
     bottom: 5vh;
     left: 25vw;
-  }
-
-  #superDentinhoStart {
-    width: 38vw;
-    left: 46vw;
   }
 
   .p1 {
